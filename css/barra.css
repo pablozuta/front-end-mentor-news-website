@@ -80,10 +80,17 @@
         margin: 0.2rem;
         margin-top: .6rem;
         margin-left: 0.8rem;}
+
+        .logo a {
+           
+            margin-left: 0rem;
+            }
+        
     .navbar{
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
+        width: auto;
+        margin-right: -2rem;
     }
     .navbar-links ul{
         width: 100%;
