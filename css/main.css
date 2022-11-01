@@ -108,24 +108,41 @@ img {
     display: none;
 }
 
+
+
 @media only screen and (max-width: 600px) {
-    body{
-       
-        margin-inline: 1rem;
-    }
+  body{
+    align-items: center;
+    margin-inline: 0;
+    margin-left: 1rem;
+  }
 
-
+.main-card-l-subcontainer-item > p{
+    margin-left: 4rem;
+ width: 100%;
+ }
+.main-card-l-subcontainer-item > button{
+    margin-left: 4rem;
+    width: 100%;
+ 
+ }
 
   .main-card-l-image{
+    align-items: center;
     display: none;
   }
+
   .main-card-image-mobile{
-   
-    display: block;
-    max-width: 400px;
+  margin-left: 0;
+    display: grid;
+    align-items: center;
+    max-width: 30rem;
+  margin: auto;
+    
+    
   }
   main{
-   
+  
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -137,7 +154,7 @@ img {
     padding-inline: 0.5rem;
     
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
 }
@@ -145,7 +162,7 @@ img {
   
     height: 120%;
      padding: 0.5rem;
-     width: 100%;
+    width: fit-content;
      background-color: black;
      color: white;
     
