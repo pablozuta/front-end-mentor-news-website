@@ -132,10 +132,10 @@ img {
   }
 
   .main-card-image-mobile{
-  margin-left: 0;
+  margin-left: -0.5;
     display: grid;
     align-items: center;
-    max-width: 25rem;
+    max-width: 20rem;
   margin: auto;
     
     
