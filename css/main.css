@@ -2,13 +2,15 @@
 
 body{
     font-family: 'Open Sans';
-    margin-inline: 6rem;
+    box-sizing: border-box;
+    padding: 0;
+   
 }
 @media (min-width:600px) and (max-width: 1000px){
    body{ margin-inline: 4rem; margin-right: -1.8rem;}
 }
 main{
-   
+    margin-inline: 6rem;
     display: flex;
     flex-direction: row;
     justify-content: baseline;
@@ -66,6 +68,7 @@ img {
 }
 
 .horizontal{
+    margin-inline: 6rem;
     margin-top: 2rem;
     display: flex;
     flex-direction: row;
@@ -111,11 +114,7 @@ img {
 
 
 @media only screen and (max-width: 600px) {
-  body{
-    align-items: center;
-    margin-inline: 0;
-    margin-left: 1rem;
-  }
+ 
 
 .main-card-l-subcontainer-item > p{
     margin-left: 4rem;
@@ -142,7 +141,7 @@ img {
     
   }
   main{
-  
+    margin-inline: 0.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -162,12 +161,13 @@ img {
   
     height: 120%;
      padding: 0.5rem;
-    width: fit-content;
+    width: 93%;
      background-color: black;
      color: white;
     
  }
  .horizontal{
+    margin-inline: 0.5rem;
    margin-top: 1rem;
     flex-direction: column;
     justify-content: space-between;
